@@ -34,7 +34,7 @@ This design isolates the business logic from infrastructure, allowing easy swapp
 ## Installation and Running
 1. **Clone the Repository**:
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/andrzej-zalewski/currency-account.git
     ```
    
 2. **Navigate to the Project Directory:**
