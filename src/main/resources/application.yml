@@ -1,0 +1,28 @@
+spring:
+  datasource:
+    url: jdbc:h2:file:./data/currency-account
+    driver-class-name: org.h2.Driver
+    username: sa
+    password:
+  jpa:
+    database-platform: org.hibernate.dialect.H2Dialect
+    hibernate:
+      ddl-auto: update
+  h2:
+    console:
+      enabled: true
+
+nbp:
+  api:
+    base-url: http://api.nbp.pl/api/exchangerates
+
+currency:
+  default-base: PLN
+
+springdoc:
+  api-docs:
+    path: /api-docs
+  swagger-ui:
+    path: /swagger-ui.html
+    operations-sorter: alpha
+    tags-sorter: alpha
